@@ -1,0 +1,414 @@
+{
+	"extName":{
+		"message":"采集助手 ( for WordPress )",
+		"description":" chrome插件名称"
+	},
+	"extDesc":{
+		"message":"转载到WordPress类网站的编辑助手工具",
+		"description":" chrome插件描述"		
+	},
+	"extAuthor":{
+		"message":"唯米天空工作室",
+		"description":" chrome插件作者"			
+	},
+	"extShareBtnTitle":{
+		"message":"转载到...",
+		"description":"转载按钮显示名称"			
+	},
+	"extCheckImagesBtnTitle":{
+		"message":"查看图片上传状态",
+		"description":" 查看图片上传状态按钮显示名称"			
+	},
+	"extSetDomRuleBtnTitle":{
+		"message":"选取并设置抓取规则",
+		"description":" 选取并设置抓取规则"			
+	},
+	"extEnableSetDomRuleBtnTitle":{
+		"message":"开启/关闭选取框",
+		"description":" 选取并设置抓取规则 - 开启/关闭"			
+	},
+	"extSetElementRuleBtnTitle":{
+		"message":"设置",
+		"description":" 选取并设置抓取规则 - 设置"			
+	},
+	"extCopyDomPathBtnTitle":{
+		"message":"复制DOM路径",
+		"description":" 选取并设置抓取规则 - 复制DOM路径"			
+	},
+	"extCopyElementBtnTitle":{
+		"message":"复制DOM元素",
+		"description":" 选取并设置抓取规则 - 复制DOM元素"			
+	},
+	"extCopyTextBtnTitle":{
+		"message":"复制DOM内文本",
+		"description":" 选取并设置抓取规则 - 复制DOM内文本"			
+	},
+	"extDownloadAllImagesBtnTitle":{
+		"message":"下载所有图片",
+		"description":" 下载所有图片"			
+	},
+	"extDownloadAllVideosBtnTitle":{
+		"message":"下载所有视频",
+		"description":" 下载所有视频"			
+	},
+	"extImageProcessBtnTitle":{
+		"message":"图片处理",
+		"description":" 图片处理"			
+	},
+	"extScreenSnapshotBtnTitle":{
+		"message":"窗口截屏",
+		"description":" 窗口截屏"			
+	},
+	"extSelectedContentSnapshotBtnTitle":{
+		"message":"转换为图片",
+		"description":" 转换为图片"			
+	},
+	"extPageContentSnapshotBtnTitle":{
+		"message":"整个页面截屏",
+		"description":" 整个页面截屏"			
+	},
+	"extViewThisCrawlerRuleBtnTitle":{
+		"message":"查看本网站抓取规则",
+		"description":" 查看本网站抓取规则"			
+	},
+	"extViewThisCrawlerRulePanelTitle":{
+		"message":"查看本网站抓取规则",
+		"description":" 查看本网站抓取规则"			
+	},
+	"extViewThisCapturePanelTitle":{
+		"message":"截屏详情",
+		"description":" 截屏详情"			
+	},
+	"noticeCrawlRuleNotFound":{
+		"message":"请先在chrome扩展选项中添加抓取规则",
+		"description":" 通知用户：没有找到抓取规则"			
+	},
+	"noticeTargetRuleNotFound":{
+		"message":"请先在chrome扩展选项中添加目标网站规则",
+		"description":" 通知用户：没有找到目标网站规则"			
+	},
+	"noticeSourcePageNotLoaded":{
+		"message":"页面尚未载入完成，请稍后再转载",
+		"description":" 通知用户：页面尚未载入完成，请稍后再转载"			
+	},
+	"noticeImageURLCrossDomainNotPermit":{
+		"message":"由于权限被拒绝，不能下载外部网站图片",
+		"description":" 通知用户：由于权限被拒绝，不能下载外部网站图片"			
+	},
+	"noticeFileNotSelected":{
+		"message":"请从本地磁盘选择一个配置文件",
+		"description":" 通知用户：请从本地磁盘选择一个配置文件"			
+	},
+	"noticeCrawlRuleAddedSuccess":{
+		"message":"增加抓取规则完成",
+		"description":" 通知用户：增加抓取规则完成"			
+	},
+	"noticeCrawlRuleAddedFailure":{
+		"message":"增加抓取规则失败",
+		"description":" 通知用户：增加抓取规则失败"			
+	},
+	"noticeCrawlRuleAddedFailureAsPermission":{
+		"message":"由于未允许访问权限，不添加该抓取规则",
+		"description":" 通知用户：由于未允许访问权限，不添加该抓取规则"			
+	},
+	"noticeCrawlRuleUpdatedSuccess":{
+		"message":"更新抓取规则完成",
+		"description":" 通知用户：更新抓取规则完成"			
+	},
+	"noticeCrawlRuleUpdatedFailureDone":{
+		"message":"更新抓取规则失败",
+		"description":" 通知用户：更新抓取规则失败"			
+	},
+	"noticeCrawlRuleUpdatedFailure":{
+		"message":"更新抓取规则失败，改为尝试插入抓取规则",
+		"description":" 通知用户：更新抓取规则失败，改为尝试插入抓取规则"			
+	},
+	"noticeCrawlRuleClearSuccess":{
+		"message":"清空抓取规则完成",
+		"description":" 通知用户：清空抓取规则完成"			
+	},
+	"noticeCrawlRuleClearFailure":{
+		"message":"清空抓取规则失败",
+		"description":" 通知用户：清空抓取规则失败"			
+	},
+	"noticeCrawlRuleUpdatedFailureAsPermission":{
+		"message":"由于未允许访问权限，不更新该抓取规则",
+		"description":" 通知用户：由于未允许访问权限，不更新该抓取规则"			
+	},
+	"noticeRuleFormatError":{
+		"message":"请按照要求填写所有必填项",
+		"description":" 通知用户：请按照要求填写所有必填项"			
+	},
+	"noticeCrawlRuleNumberOut":{
+		"message":"已经超出5个抓取规则的上限",
+		"description":" 通知用户：已经超出5个抓取规则的上限"			
+	},
+	"noticeTargetRuleUpdatedSuccess":{
+		"message":"更新目标规则完成",
+		"description":" 通知用户：更新目标规则完成"			
+	},
+	"noticeTargetRuleUpdatedFailure":{
+		"message":"更新目标规则失败",
+		"description":" 通知用户：更新目标规则失败"			
+	},
+	"noticeTargetRuleAddedFailureAsPermission":{
+		"message":"由于未允许访问权限，不添加该目标规则",
+		"description":" 通知用户：由于未允许访问权限，不添加该目标规则"			
+	},
+	"noticeNotValidImage":{
+		"message":"不是有效的图片",
+		"description":"不是有效的图片"
+	},
+	"btnCrawlerBtn":{
+		"message":"采集源设置",
+		"description":" 采集源设置 按钮显示文字"			
+	},
+	"btnTargetBtn":{
+		"message":"目标设置",
+		"description":" 目标设置 按钮显示文字"			
+	},
+	"btnPhotoProcessBtn":{
+		"message":"图片处理",
+		"description":" 图片处理 按钮显示文字"			
+	},
+	"btnMachineBtn":{
+		"message":"欢迎页",
+		"description":" 欢迎页 按钮显示文字"			
+	},
+	"btnHelpBtn":{
+		"message":"帮助",
+		"description":" 帮助 按钮显示文字"			
+	},
+	"btnAboutBtn":{
+		"message":"关于",
+		"description":" 关于 按钮显示文字"			
+	},
+	"infoCPUInfo":{
+		"message":"CPU信息",
+		"description":" CPU信息 标题"			
+	},
+	"infoCPUKey":{
+		"message":"CPU指标",
+		"description":" CPU信息 表格头信息Key"			
+	},
+	"infoCPUValue":{
+		"message":"值",
+		"description":" CPU信息 表格头信息Value"			
+	},
+	"infoMemInfo":{
+		"message":"内存信息",
+		"description":" 内存信息 标题"			
+	},
+	"infoMemKey":{
+		"message":"内存指标",
+		"description":" 内存指标 表格头信息Key"			
+	},
+	"infoMemValue":{
+		"message":"值",
+		"description":" 内存指标 表格头信息Value"			
+	},
+	"btnImportBtn":{
+		"message":"导入",
+		"description":" 导入 按钮显示文字"			
+	},
+	"btnExportBtn":{
+		"message":"导出",
+		"description":" 导出 按钮显示文字"			
+	},
+	"btnClearBtn":{
+		"message":"清空",
+		"description":" 清空 按钮显示文字"			
+	},
+	"btnNewBtn":{
+		"message":"新建",
+		"description":" 新建 按钮显示文字"			
+	},
+	"btnRefreshBtn":{
+		"message":"刷新",
+		"description":" 刷新 按钮显示文字"			
+	},
+	"infoRuleNumbericID":{
+		"message":"序号",
+		"description":"序号  表格头信息"			
+	},
+	"infoRuleName":{
+		"message":"名称",
+		"description":" 名称 表格头信息"			
+	},
+	"infoRuleModifyTime":{
+		"message":"修改时间",
+		"description":" 修改时间 表格头信息"			
+	},
+	"infoRuleDomainName":{
+		"message":"网站域名",
+		"description":" 网站域名 表格头信息"			
+	},
+	"infoRuleOpt":{
+		"message":"操作",
+		"description":" 操作 表格头信息"			
+	},
+	"infoDomPath":{
+		"message":"DOM路径",
+		"description":" DOM路径 信息"			
+	},
+	"labelDomainName":{
+		"message":"网站域名",
+		"description":" 网站域名 "			
+	},
+	"helpBlockRequire":{
+		"message":"必填",
+		"description":" 必填"			
+	},
+	"helpBlockStarRegexp":{
+		"message":"可以用星号*替换URL中的某些路径，以便能够适配该网站的大部分含有正文的网页",
+		"description":" 可以用星号*替换URL中的某些路径，以便能够适配该网站的大部分含有正文的网页"			
+	},
+	"labelSiteName":{
+		"message":"网站名称",
+		"description":" 网站名称"			
+	},
+	"labelArticleUrl":{
+		"message":"文章URL",
+		"description":" 文章URL "			
+	},
+	"labelTitle":{
+		"message":"标题",
+		"description":" 标题 "			
+	},
+	"labelAuthor":{
+		"message":"作者",
+		"description":" 作者"			
+	},
+	"labelDateTime":{
+		"message":"时间",
+		"description":" 时间"			
+	},
+	"labelContent":{
+		"message":"正文",
+		"description":" 正文 "			
+	},
+	"btnSaveBtn":{
+		"message":"保存",
+		"description":" 保存 "			
+	},
+	"btnCancelBtn":{
+		"message":"取消",
+		"description":" 取消 "			
+	},
+	"btnAutoGenerateBtn":{
+		"message":"自动生成",
+		"description":" 自动生成 按钮显示文字 "			
+	},
+	"infoTargetDomPath":{
+		"message":"目标网站DOM路径",
+		"description":" 目标网站DOM路径 信息"			
+	},
+	"infoAutoGenerate":{
+		"message":"可根据网站域名自动生成相关DOM路径",
+		"description":" 可根据网站域名自动生成相关DOM路径 "			
+	},
+	"infoSiteSupport":{
+		"message":"目前仅支持wordpress",
+		"description":" 目前仅支持wordpress "			
+	},
+	"labelSiteType":{
+		"message":"网站类型",
+		"description":" 网站类型"			
+	},
+	"labelPostArticleUrl":{
+		"message":"新建文章URL",
+		"description":" 新建文章URL "			
+	},
+	"labelTargetTitle":{
+		"message":"标题",
+		"description":" 标题 "			
+	},
+	"labelLabelTitle":{
+		"message":"标题Label",
+		"description":" 标题Label "			
+	},
+	"labelContent":{
+		"message":"正文",
+		"description":" 正文 "			
+	},
+	"helpBlockRequiredAutoGenerate":{
+		"message":"必填，自动生成，可修改",
+		"description":" 必填，自动生成，可修改 "			
+	},
+	"infoImportCrawlRule":{
+		"message":"导入抓取规则",
+		"description":" 导入抓取规则 "			
+	},
+	"infoImportTargetRule":{
+		"message":"导入目标规则",
+		"description":" 导入目标规则 "			
+	},
+	"infoImportTargetRule":{
+		"message":"上传待处理图片",
+		"description":" 上传待处理图片 "			
+	},
+	"infoDownloadImagesPanelTitle":{
+		"message":"下载全部图片",
+		"description":" 下载全部图片对话框标题 "			
+	},
+	"btnDownloadBtn":{
+		"message":"下载",
+		"description":" 下载 "			
+	},
+	"btnUploadBtn":{
+		"message":"上传",
+		"description":" 上传 "			
+	},
+	"btnApplyBtn":{
+		"message":"应用",
+		"description":" 应用 "			
+	},
+	"btnCloseBtn":{
+		"message":"关闭",
+		"description":" 关闭 "			
+	},
+	"btnReplaceBtn":{
+		"message":"替换",
+		"description":" 替换 "			
+	},
+	"infoNextStepApplyBtn":{
+		"message":"上传成功，请点击\"应用\"按钮使之生效",
+		"description":" 导入配置文件后，提示用户点击\"应用\"按钮 "			
+	},
+	"infoUploadImagesPanelTitle":{
+		"message":"转存图片进度",
+		"description":" 上传图片对话框：转存图片进度 "			
+	},
+	"infoSelectNotAll":{
+		"message":"全选\/全不选",
+		"description":" 全选\/全不选 "			
+	},
+	"infoUploadFailure":{
+		"message":"上传失败",
+		"description":" 上传失败 "			
+	},
+	"infoUploadProgress":{
+		"message":"上传进度",
+		"description":" 上传进度 "			
+	},
+	"infoUploadComplete":{
+		"message":"完成",
+		"description":" 完成 "			
+	},
+	"labelNewArticleUrl":{
+		"message":"URL",
+		"description":" 新建抓取文章URL "			
+	},
+	"infoCrawlerRuleSetPanelTitle":{
+		"message":"设置规则",
+		"description":" 抓取规则设置对话框 标题 "			
+	},
+	"labelDomLabelTitle":{
+		"message":"元素路径",
+		"description":" 抓取规则设置对话框 - 元素路径 "			
+	},
+	"infoElementCurrentPath":{
+		"message":"当前元素路径为",
+		"description":" 当前元素路径为 "			
+	}
+}

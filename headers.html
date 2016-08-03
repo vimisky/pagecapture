@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="utf8"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>转载助手</title>
+	
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<!-- <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+	<!-- <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+	<style type="text/css">
+		body {
+			/*min-width: 1005px; 
+			max-width: 100%;
+			position: relative;
+			vertical-align:middle;*/
+			font-family: 'Microsoft YaHei';
+		}
+		span {
+			display: block;
+		}
+		.origin {
+			transform:scale(0);
+		}
+		/*动画并不影响文档流*/
+		@keyframes translate-display {
+			0% {transform:translate(0px, 10px);}
+			50% {transform:translate(10px, 20px);}
+			100% {transform:translate(20px, 40px);}
+		}			
+		@keyframes slow-display {
+			0% {opacity: 0; margin-top:-100px;}
+			50% {opacity: 0.5;margin-top:0px;}
+			100% {opacity: 1;margin-top:100px;}
+		}
+		@keyframes point-display {
+			0% {transform:scale(0, 0);}
+			50% {transform:scale(0.5, 0.5);}
+			100% {transform:scale(1, 1);}
+		}
+		@keyframes rotate-display {
+			0% {transform:rotate(0deg);}
+			50% {transform:rotate(90deg);}
+			100% {transform:rotate(180deg);}
+		}	
+		@keyframes scale-display {
+			0% {margin-top:-100%;}
+			/*50% {margin-top:-50%;}*/
+			100% {margin-top:0%;}
+		}			
+		.rt {
+			animation:scale-display 5s;
+			animation-fill-mode:both;
+			/*animation-timing-function: ease-in-out;*/
+		}
+
+	</style>
+</head>
+
+<body>
+<div id="container">
+	<button id="triggerAni">动画</button>
+	<button id="triggerRestore">动画</button>
+</div>
+<div style="border:solid 1px red; overflow:hidden;">
+	<div id="imgdiv" class="" style="">
+		<img src="images/1747203400.jpg" alt="image"></img>
+	</div>
+</div>
+<div id="imgdiv2" class="" style="">
+	<img src="images/2022649692.jpg" alt="image"></img>
+</div>
+<script type="text/javascript" src="headers.js"></script>
+</body>
+</html>

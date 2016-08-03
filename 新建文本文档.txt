@@ -1,0 +1,189 @@
+<nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
+					<ul class="nav bs-docs-sidenav">
+
+						<li class="">
+							<a href="#overview">概览</a>
+							<ul class="nav">
+								<li class=""><a href="#overview-doctype">HTML5 文档类型</a></li>
+								<li class=""><a href="#overview-mobile">移动设备优先</a></li>
+								<li class=""><a href="#overview-type-links">排版与链接</a></li>
+								<li class=""><a href="#overview-normalize">Normalize.css</a></li>
+								<li><a href="#overview-container">布局容器</a></li>
+							</ul>
+						</li>
+						<li class="active">
+							<a href="#grid">栅格系统</a>
+							<ul class="nav">
+								<li class=""><a href="#grid-intro">简介</a></li>
+								<li class="active"><a href="#grid-media-queries">媒体查询</a></li>
+								<li class=""><a href="#grid-options">栅格参数</a></li>
+								<li class=""><a href="#grid-example-basic">实例：从堆叠到水平排列</a></li>
+								<li class=""><a href="#grid-example-fluid">实例：流式布局容器</a></li>
+								<li class=""><a href="#grid-example-mixed">实例：移动设备和桌面屏幕</a></li>
+								<li class=""><a href="#grid-example-mixed-complete">实例：手机、平板、桌面</a></li>
+								<li class=""><a href="#grid-example-wrapping">实例：多余的列（column）将另起一行排列</a></li>
+								<li><a href="#grid-responsive-resets">Responsive column resets</a></li>
+								<li><a href="#grid-offsetting">列偏移</a></li>
+								<li><a href="#grid-nesting">嵌套列</a></li>
+								<li><a href="#grid-column-ordering">列排序</a></li>
+								<li class=""><a href="#grid-less">Less mixin 和变量</a></li>
+							</ul>
+						</li>
+						<li class="">
+							<a href="#type">排版</a>
+							<ul class="nav">
+								<li><a href="#type-headings">标题</a></li>
+								<li><a href="#type-body-copy">页面主体</a></li>
+								<li><a href="#type-inline-text">内联文本元素</a></li>
+								<li><a href="#type-alignment">对齐</a></li>
+								<li><a href="#type-transformation">改变大小写</a></li>
+								<li><a href="#type-abbreviations">缩略语</a></li>
+								<li><a href="#type-addresses">地址</a></li>
+								<li><a href="#type-blockquotes">引用</a></li>
+								<li><a href="#type-lists">列表</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#code">代码</a>
+							<ul class="nav">
+								<li><a href="#code-inline">内联代码</a></li>
+								<li><a href="#code-user-input">用户输入</a></li>
+								<li><a href="#code-block">基本代码块</a></li>
+								<li><a href="#code-variables">变量</a></li>
+								<li><a href="#code-sample-output">程序输出</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#tables">表格</a>
+							<ul class="nav">
+								<li><a href="#tables-example">基本实例</a></li>
+								<li><a href="#tables-striped">条纹状表格</a></li>
+								<li><a href="#tables-bordered">带边框的表格</a></li>
+								<li><a href="#tables-hover-rows">鼠标悬停</a></li>
+								<li><a href="#tables-condensed">紧缩表格</a></li>
+								<li><a href="#tables-contextual-classes">状态类</a></li>
+								<li><a href="#tables-responsive">响应式表格</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#forms">表单</a>
+							<ul class="nav">
+								<li><a href="#forms-example">基本实例</a></li>
+								<li><a href="#forms-inline">内联表单</a></li>
+								<li><a href="#forms-horizontal">水平排列的表单</a></li>
+								<li><a href="#forms-controls">被支持的控件</a></li>
+								<li><a href="#forms-controls-static">静态控件</a></li>
+								<li><a href="#forms-control-focus">焦点状态</a></li>
+								<li><a href="#forms-control-disabled">禁用状态</a></li>
+								<li><a href="#forms-control-readonly">只读状态</a></li>
+								<li><a href="#forms-control-validation">校验状态</a></li>
+								<li><a href="#forms-control-sizes">控件尺寸</a></li>
+								<li><a href="#forms-help-text">辅助文本</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#buttons">按钮</a>
+							<ul class="nav">
+								<li><a href="#buttons-tags">可作为按钮使用的标签或元素</a></li>
+								<li><a href="#buttons-options">预定义样式</a></li>
+								<li><a href="#buttons-sizes">尺寸</a></li>
+								<li><a href="#buttons-active">激活状态</a></li>
+								<li><a href="#buttons-disabled">禁用状态</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#images">图片</a>
+							<ul class="nav">
+								<li><a href="#images-responsive">响应式图片</a></li>
+								<li><a href="#images-shapes">图片形状</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#helper-classes">辅助类</a>
+							<ul class="nav">
+								<li><a href="#helper-classes-colors">情境文本颜色</a></li>
+								<li><a href="#helper-classes-backgrounds">情境背景色</a></li>
+								<li><a href="#helper-classes-close">关闭按钮</a></li>
+								<li><a href="#helper-classes-carets">三角符号</a></li>
+								<li><a href="#helper-classes-floats">快速浮动</a></li>
+								<li><a href="#helper-classes-center">让内容块居中</a></li>
+								<li><a href="#helper-classes-clearfix">清除浮动</a></li>
+								<li><a href="#helper-classes-show-hide">显示或隐藏内容</a></li>
+								<li><a href="#helper-classes-screen-readers">屏幕阅读器和键盘导航</a></li>
+								<li><a href="#helper-classes-image-replacement">图片替换</a></li>
+							</ul>
+						</li>
+						<li class="">
+							<a href="#responsive-utilities">响应式工具</a>
+							<ul class="nav">
+								<li class=""><a href="#responsive-utilities-classes">可用的类</a></li>
+								<li class=""><a href="#responsive-utilities-print">打印类</a></li>
+								<li class=""><a href="#responsive-utilities-tests">测试用例</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#less">使用 Less</a>
+							<ul class="nav">
+								<li><a href="#less-bootstrap">编译 Bootstrap</a></li>
+								<li><a href="#less-variables">变量</a></li>
+								<li><a href="#less-mixins-vendor">针对特定厂商的 mixin</a></li>
+								<li><a href="#less-mixins-utility">工具 mixin</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#sass">使用 Sass</a>
+							<ul class="nav">
+								<li><a href="#sass-contents">包含的内容</a></li>
+								<li><a href="#sass-installation">安装</a></li>
+							</ul>
+						</li>
+
+
+					</ul>
+					<a class="back-to-top" href="#top">
+						返回顶部
+					</a>
+
+					<a href="#" class="bs-docs-theme-toggle" role="button">
+						主题预览
+					</a>
+
+				</nav>
+
+
+position: fixed; opacity: 1; z-index: 11000; left: 50%; margin-left: -330px; top: 200px;
+
+------WebKitFormBoundaryKHbl1hB9AYgphExH
+Content-Disposition: form-data; name="name"
+
+icon19x19 - 副本 - 副本.png
+------WebKitFormBoundaryKHbl1hB9AYgphExH
+Content-Disposition: form-data; name="action"
+
+upload-attachment
+------WebKitFormBoundaryKHbl1hB9AYgphExH
+Content-Disposition: form-data; name="_wpnonce"
+
+7b3ca6d0b8
+------WebKitFormBoundaryKHbl1hB9AYgphExH
+Content-Disposition: form-data; name="post_id"
+
+109
+------WebKitFormBoundaryKHbl1hB9AYgphExH
+Content-Disposition: form-data; name="async-upload"; filename="icon19x19 - 副本 - 副本.png"
+Content-Type: image/png
+
+
+------WebKitFormBoundaryKHbl1hB9AYgphExH--
+
+
+var commonL10n = {"warnDelete":"\u60a8\u5c06\u6c38\u4e45\u5220\u9664\u8fd9\u4e9b\u9879\u76ee\u3002\n\u70b9\u51fb\u201c\u53d6\u6d88\u201d\u505c\u6b62\uff0c\u70b9\u51fb\u201c\u786e\u5b9a\u201d\u5220\u9664\u3002","dismiss":"\u5ffd\u7565\u6b64\u901a\u77e5\u3002"};var heartbeatSettings = {"nonce":"46c14d3645","suspension":"disable"};var autosaveL10n = {"autosaveInterval":"60","blog_id":"1"};var wpAjax = {"noPerm":"\u60a8\u65e0\u6743\u6267\u884c\u6b64\u64cd\u4f5c\u3002","broken":"\u53d1\u751f\u4e86\u65e0\u6cd5\u8bc6\u522b\u7684\u9519\u8bef\u3002"};var tagsBoxL10n = {"tagDelimiter":"\u3001"};var wordCountL10n = {"type":"characters_excluding_spaces","shortcodes":["embed","wp_caption","caption","gallery","playlist","audio","video"]};var postL10n = {"ok":"\u786e\u5b9a","cancel":"\u53d6\u6d88","publishOn":"\u53d1\u5e03\u4e8e\uff1a","publishOnFuture":"\u5b9a\u65f6\uff1a","publishOnPast":"\u53d1\u5e03\u4e8e\uff1a","dateFormat":"%3$s-%1$s-%2$s @ %4$s:%5$s","showcomm":"\u663e\u793a\u66f4\u591a\u8bc4\u8bba","endcomm":"\u5df2\u65e0\u66f4\u591a\u8bc4\u8bba\u3002","publish":"\u53d1\u5e03","schedule":"\u5b9a\u65f6","update":"\u66f4\u65b0","savePending":"\u4fdd\u5b58\u5e76\u63d0\u8bf7\u5ba1\u6838","saveDraft":"\u4fdd\u5b58\u8349\u7a3f","private":"\u79c1\u5bc6","public":"\u516c\u5f00","publicSticky":"\u516c\u5f00\u3001\u7f6e\u9876","password":"\u5bc6\u7801\u4fdd\u62a4","privatelyPublished":"\u79c1\u5bc6\u3001\u5df2\u53d1\u5e03","published":"\u5df2\u53d1\u5e03","saveAlert":"\u79bb\u5f00\u8fd9\u4e2a\u9875\u9762\uff0c\u60a8\u6240\u505a\u7684\u66f4\u6539\u5c06\u4e22\u5931\u3002","savingText":"\u6b63\u5728\u4fdd\u5b58\u8349\u7a3f\u2026","permalinkSaved":"\u6c38\u4e45\u94fe\u63a5\u5df2\u4fdd\u5b58"};var thickboxL10n = {"next":"\u4e0b\u4e00\u9875 >","prev":"< \u4e0a\u4e00\u9875","image":"\u56fe\u50cf","of":"\/","close":"\u5173\u95ed","noiframes":"\u8fd9\u4e2a\u529f\u80fd\u9700\u8981iframe\u7684\u652f\u6301\u3002\u60a8\u53ef\u80fd\u7981\u6b62\u4e86iframe\u7684\u663e\u793a\uff0c\u6216\u60a8\u7684\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u6b64\u529f\u80fd\u3002","loadingAnimation":"http:\/\/dev.cloudxinhua.com:8022\/wordpress\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};var _wpUtilSettings = {"ajax":{"url":"\/wordpress\/wp-admin\/admin-ajax.php"}};var _wpMediaModelsL10n = {"settings":{"ajaxurl":"\/wordpress\/wp-admin\/admin-ajax.php","post":{"id":0}}};var pluploadL10n = {"queue_limit_exceeded":"\u60a8\u5411\u961f\u5217\u4e2d\u6dfb\u52a0\u7684\u6587\u4ef6\u8fc7\u591a\u3002","file_exceeds_size_limit":"%s\u8d85\u8fc7\u4e86\u7ad9\u70b9\u7684\u6700\u5927\u4e0a\u4f20\u9650\u5236\u3002","zero_byte_file":"\u6587\u4ef6\u4e3a\u7a7a\uff0c\u8bf7\u9009\u62e9\u5176\u5b83\u6587\u4ef6\u3002","invalid_filetype":"\u4e0d\u5141\u8bb8\u4e0a\u4f20\u8be5\u7c7b\u578b\u7684\u6587\u4ef6\uff0c\u8bf7\u9009\u62e9\u5176\u5b83\u6587\u4ef6\u3002","not_an_image":"\u8be5\u6587\u4ef6\u4e0d\u662f\u56fe\u50cf\uff0c\u8bf7\u4f7f\u7528\u5176\u5b83\u6587\u4ef6\u3002","image_memory_exceeded":"\u8fbe\u5230\u5185\u5b58\u9650\u5236\uff0c\u8bf7\u4f7f\u7528\u5c0f\u4e00\u4e9b\u7684\u6587\u4ef6\u3002","image_dimensions_exceeded":"\u8be5\u6587\u4ef6\u8d85\u8fc7\u4e86\u6700\u5927\u5927\u5c0f\uff0c\u8bf7\u4f7f\u7528\u5176\u5b83\u6587\u4ef6\u3002","default_error":"\u4e0a\u4f20\u65f6\u53d1\u751f\u4e86\u9519\u8bef\u3002\u8bf7\u7a0d\u540e\u518d\u8bd5\u3002","missing_upload_url":"\u914d\u7f6e\u6709\u8bef\u3002\u8bf7\u8054\u7cfb\u60a8\u7684\u670d\u52a1\u5668\u7ba1\u7406\u5458\u3002","upload_limit_exceeded":"\u60a8\u53ea\u80fd\u4e0a\u4f20\u4e00\u4e2a\u6587\u4ef6\u3002","http_error":"HTTP\u9519\u8bef\u3002","upload_failed":"\u4e0a\u4f20\u5931\u8d25\u3002","big_upload_failed":"\u8bf7\u5c1d\u8bd5\u4f7f\u7528%1$s\u6807\u51c6\u7684\u6d4f\u89c8\u5668\u4e0a\u4f20\u5de5\u5177%2$s\u6765\u4e0a\u4f20\u8fd9\u4e2a\u6587\u4ef6\u3002","big_upload_queued":"%s\u8d85\u51fa\u4e86\u60a8\u6d4f\u89c8\u5668\u5bf9\u9ad8\u7ea7\u591a\u6587\u4ef6\u4e0a\u4f20\u5de5\u5177\u6240\u505a\u7684\u5927\u5c0f\u9650\u5236\u3002","io_error":"IO\u9519\u8bef\u3002","security_error":"\u5b89\u5168\u9519\u8bef\u3002","file_cancelled":"\u6587\u4ef6\u5df2\u53d6\u6d88\u3002","upload_stopped":"\u4e0a\u4f20\u505c\u6b62\u3002","dismiss":"\u4e0d\u518d\u663e\u793a","crunching":"\u5904\u7406\u4e2d\u2026","deleted":"\u79fb\u52a8\u5230\u56de\u6536\u7ad9\u3002","error_uploading":"\u201c%s\u201d\u4e0a\u4f20\u5931\u8d25\u3002"};
+var _wpPluploadSettings = {"defaults":{"runtimes":"html5,flash,silverlight,html4","file_data_name":"async-upload","url":"\/wordpress\/wp-admin\/async-upload.php","flash_swf_url":"http:\/\/dev.cloudxinhua.com:8022\/wordpress\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/dev.cloudxinhua.com:8022\/wordpress\/wp-includes\/js\/plupload\/plupload.silverlight.xap","filters":{"max_file_size":"2097152b"},"multipart_params":{"action":"upload-attachment","_wpnonce":"7b3ca6d0b8"}},"browser":{"mobile":false,"supported":true},"limitExceeded":false};var mejsL10n = {"language":"zh-CN","strings":{"Close":"\u5173\u95ed","Fullscreen":"\u5168\u5c4f","Download File":"\u4e0b\u8f7d\u6587\u4ef6","Download Video":"\u4e0b\u8f7d\u89c6\u9891","Play\/Pause":"\u64ad\u653e\/\u6682\u505c","Mute Toggle":"\u5207\u6362\u9759\u97f3","None":"\u65e0","Turn off Fullscreen":"\u5173\u95ed\u5168\u5c4f","Go Fullscreen":"\u5168\u5c4f","Unmute":"\u53d6\u6d88\u9759\u97f3","Mute":"\u9759\u97f3","Captions\/Subtitles":"\u5b57\u5e55"}};
+var _wpmejsSettings = {"pluginPath":"\/wordpress\/wp-includes\/js\/mediaelement\/"};var _wpMediaViewsL10n = {"url":"URL","addMedia":"\u6dfb\u52a0\u5a92\u4f53","search":"\u641c\u7d22","select":"\u9009\u62e9","cancel":"\u53d6\u6d88","update":"\u66f4\u65b0","replace":"\u66ff\u6362","remove":"\u79fb\u9664","back":"\u8fd4\u56de","selected":"\u5df2\u9009%d\u4e2a","dragInfo":"\u62d6\u653e\u6765\u91cd\u65b0\u6392\u5e8f\u5a92\u4f53\u6587\u4ef6\u3002","uploadFilesTitle":"\u4e0a\u4f20\u6587\u4ef6","uploadImagesTitle":"\u4e0a\u4f20\u6587\u4ef6","mediaLibraryTitle":"\u5a92\u4f53\u5e93","insertMediaTitle":"\u63d2\u5165\u591a\u5a92\u4f53","createNewGallery":"\u521b\u5efa\u65b0\u76f8\u518c","createNewPlaylist":"\u521b\u5efa\u65b0\u7684\u64ad\u653e\u5217\u8868","createNewVideoPlaylist":"\u521b\u5efa\u65b0\u7684\u89c6\u9891\u64ad\u653e\u5217\u8868","returnToLibrary":"\u2190 \u56de\u5230\u5a92\u4f53\u5e93","allMediaItems":"\u6240\u6709\u591a\u5a92\u4f53\u9879\u76ee","allDates":"\u5168\u90e8\u65e5\u671f","noItemsFound":"\u627e\u4e0d\u5230\u6761\u76ee\u3002","insertIntoPost":"\u63d2\u5165\u81f3\u6587\u7ae0","unattached":"\u5c1a\u672a\u9644\u52a0","trash":"\u56de\u6536\u7ad9","uploadedToThisPost":"\u4e0a\u4f20\u5230\u672c\u6587\u7ae0\u7684","warnDelete":"\u60a8\u5c06\u6c38\u4e45\u5220\u9664\u6240\u9009\u6761\u76ee\u3002\n\u70b9\u51fb\u201c\u53d6\u6d88\u201d\u505c\u6b62\uff0c\u70b9\u51fb\u201c\u786e\u5b9a\u201d\u5220\u9664\u3002","warnBulkDelete":"\u60a8\u5c06\u6c38\u4e45\u5220\u9664\u8fd9\u4e9b\u9879\u76ee\u3002\n\u70b9\u51fb\u201c\u53d6\u6d88\u201d\u505c\u6b62\uff0c\u70b9\u51fb\u201c\u786e\u5b9a\u201d\u5220\u9664\u3002","warnBulkTrash":"\u60a8\u5c06\u5220\u9664\u8fd9\u4e9b\u9879\u76ee\u3002\n\u70b9\u51fb\u201c\u53d6\u6d88\u201d\u505c\u6b62\uff0c\u70b9\u51fb\u201c\u786e\u5b9a\u201d\u5220\u9664\u3002","bulkSelect":"\u6279\u91cf\u9009\u62e9","cancelSelection":"\u53d6\u6d88\u9009\u62e9","trashSelected":"\u5220\u9664\u6240\u9009","untrashSelected":"\u8fd8\u539f\u6240\u9009","deleteSelected":"\u6c38\u4e45\u5220\u9664\u6240\u9009","deletePermanently":"\u6c38\u4e45\u5220\u9664","apply":"\u5e94\u7528","filterByDate":"\u6309\u65e5\u671f\u7b5b\u9009","filterByType":"\u6309\u7c7b\u578b\u7b5b\u9009","searchMediaLabel":"\u641c\u7d22\u5a92\u4f53","noMedia":"\u6ca1\u6709\u627e\u5230\u5a92\u4f53\u9644\u4ef6\u3002","attachmentDetails":"\u9644\u4ef6\u8be6\u60c5","insertFromUrlTitle":"\u4eceURL\u63d2\u5165","setFeaturedImageTitle":"\u7279\u8272\u56fe\u7247","setFeaturedImage":"\u8bbe\u4e3a\u7279\u8272\u56fe\u50cf","createGalleryTitle":"\u521b\u5efa\u76f8\u518c","editGalleryTitle":"\u7f16\u8f91\u76f8\u518c","cancelGalleryTitle":"\u2190 \u53d6\u6d88\u76f8\u518c","insertGallery":"\u63d2\u5165\u76f8\u518c","updateGallery":"\u66f4\u65b0\u76f8\u518c","addToGallery":"\u6dfb\u52a0\u81f3\u76f8\u518c","addToGalleryTitle":"\u6dfb\u52a0\u81f3\u76f8\u518c","reverseOrder":"\u53cd\u8f6c\u987a\u5e8f","imageDetailsTitle":"\u56fe\u50cf\u8be6\u60c5","imageReplaceTitle":"\u66ff\u6362\u56fe\u50cf","imageDetailsCancel":"\u53d6\u6d88\u7f16\u8f91","editImage":"\u7f16\u8f91\u56fe\u50cf","chooseImage":"\u9009\u62e9\u56fe\u50cf","selectAndCrop":"\u9009\u62e9\u5e76\u88c1\u526a","skipCropping":"\u8df3\u8fc7\u88c1\u526a","cropImage":"\u88c1\u526a\u56fe\u50cf","cropYourImage":"\u88c1\u526a\u60a8\u7684\u56fe\u7247","cropping":"\u88c1\u526a\u4e2d\u2026","suggestedDimensions":"\u63a8\u8350\u7684\u56fe\u50cf\u5c3a\u5bf8\uff1a","cropError":"\u5728\u88c1\u526a\u60a8\u7684\u56fe\u50cf\u65f6\u53d1\u751f\u4e86\u9519\u8bef\u3002","audioDetailsTitle":"\u97f3\u9891\u8be6\u60c5","audioReplaceTitle":"\u66ff\u6362\u97f3\u9891","audioAddSourceTitle":"\u6dfb\u52a0\u97f3\u9891\u6e90","audioDetailsCancel":"\u53d6\u6d88\u7f16\u8f91","videoDetailsTitle":"\u89c6\u9891\u8be6\u60c5","videoReplaceTitle":"\u66ff\u6362\u89c6\u9891","videoAddSourceTitle":"\u6dfb\u52a0\u89c6\u9891\u6e90","videoDetailsCancel":"\u53d6\u6d88\u7f16\u8f91","videoSelectPosterImageTitle":"\u9009\u62e9\u6d77\u62a5\u56fe\u50cf","videoAddTrackTitle":"\u6dfb\u52a0\u5b57\u5e55","playlistDragInfo":"\u62d6\u653e\u6765\u6392\u5e8f\u66f2\u76ee\u3002","createPlaylistTitle":"\u521b\u5efa\u97f3\u9891\u64ad\u653e\u5217\u8868","editPlaylistTitle":"\u7f16\u8f91\u97f3\u9891\u64ad\u653e\u5217\u8868","cancelPlaylistTitle":"\u2190 \u53d6\u6d88\u97f3\u9891\u64ad\u653e\u5217\u8868","insertPlaylist":"\u63d2\u5165\u97f3\u9891\u64ad\u653e\u5217\u8868","updatePlaylist":"\u66f4\u65b0\u97f3\u9891\u64ad\u653e\u5217\u8868","addToPlaylist":"\u6dfb\u52a0\u5230\u97f3\u9891\u64ad\u653e\u5217\u8868","addToPlaylistTitle":"\u6dfb\u52a0\u5230\u97f3\u9891\u64ad\u653e\u5217\u8868","videoPlaylistDragInfo":"\u62d6\u653e\u6765\u6392\u5e8f\u89c6\u9891\u3002","createVideoPlaylistTitle":"\u521b\u5efa\u89c6\u9891\u64ad\u653e\u5217\u8868","editVideoPlaylistTitle":"\u7f16\u8f91\u89c6\u9891\u64ad\u653e\u5217\u8868","cancelVideoPlaylistTitle":"\u2190 \u53d6\u6d88\u89c6\u9891\u64ad\u653e\u5217\u8868","insertVideoPlaylist":"\u63d2\u5165\u89c6\u9891\u64ad\u653e\u5217\u8868","updateVideoPlaylist":"\u66f4\u65b0\u89c6\u9891\u64ad\u653e\u5217\u8868","addToVideoPlaylist":"\u6dfb\u52a0\u5230\u89c6\u9891\u64ad\u653e\u5217\u8868","addToVideoPlaylistTitle":"\u6dfb\u52a0\u5230\u89c6\u9891\u64ad\u653e\u5217\u8868","settings":{"tabs":[],"tabUrl":"http:\/\/dev.cloudxinhua.com:8022\/wordpress\/wp-admin\/media-upload.php?chromeless=1","mimeTypes":{"image":"\u56fe\u50cf","audio":"\u97f3\u9891","video":"\u89c6\u9891"},"captions":true,"nonce":{"sendToEditor":"704bfcefd4"},"post":{"id":111,"nonce":"519739178f","featuredImageId":-1},"defaultProps":{"link":"none","align":"","size":""},"attachmentCounts":{"audio":0,"video":0},"embedExts":["mp3","ogg","wma","m4a","wav","mp4","m4v","webm","ogv","wmv","flv"],"embedMimes":{"mp3":"audio\/mpeg","ogg":"audio\/ogg","wma":"audio\/x-ms-wma","m4a":"audio\/mpeg","wav":"audio\/wav","mp4":"video\/mp4","m4v":"video\/mp4","webm":"video\/webm","ogv":"video\/ogg","wmv":"video\/x-ms-wmv","flv":"video\/x-flv"},"contentWidth":840,"months":[{"year":"2016","month":"1","text":"2016\u5e74\u4e00\u6708"}],"mediaTrash":0}};var imageEditL10n = {"error":"\u65e0\u6cd5\u52a0\u8f7d\u9884\u89c8\u56fe\u7247\u3002\u8bf7\u5c1d\u8bd5\u5237\u65b0\u9875\u9762\u3002"};var authcheckL10n = {"beforeunload":"\u60a8\u7684\u767b\u5f55\u4f1a\u8bdd\u5df2\u8fc7\u671f\uff0c\u8bf7\u91cd\u65b0\u767b\u5f55\u3002","interval":"180"};var quicktagsL10n = {"closeAllOpenTags":"\u5173\u95ed\u6240\u6709\u6253\u5f00\u7684\u6807\u7b7e","closeTags":"\u5173\u95ed\u6807\u7b7e","enterURL":"\u8f93\u5165URL","enterImageURL":"\u8f93\u5165\u56fe\u50cfURL","enterImageDescription":"\u4e3a\u56fe\u50cf\u8f93\u5165\u63cf\u8ff0","textdirection":"\u6587\u672c\u65b9\u5411","toggleTextdirection":"\u5207\u6362\u7f16\u8f91\u5668\u6587\u672c\u4e66\u5199\u65b9\u5411","dfw":"\u514d\u6253\u6270\u5199\u4f5c\u6a21\u5f0f","strong":"\u7c97\u4f53","strongClose":"\u5173\u95ed\u7c97\u4f53\u6807\u7b7e","em":"\u659c\u4f53","emClose":"\u5173\u95ed\u659c\u4f53\u6807\u7b7e","link":"\u63d2\u5165\u94fe\u63a5","blockquote":"\u5757\u5f15\u7528","blockquoteClose":"\u5173\u95ed\u5757\u5f15\u7528\u6807\u7b7e","del":"\u5220\u9664\u7684\u6587\u5b57\uff08\u5220\u9664\u7ebf\uff09","delClose":"\u5173\u95ed\u5220\u9664\u7ebf\u6807\u7b7e","ins":"\u63d2\u5165\u7684\u6587\u5b57","insClose":"\u5173\u95ed\u63d2\u5165\u7684\u6587\u5b57\u6807\u7b7e","image":"\u63d2\u5165\u56fe\u50cf","ul":"\u9879\u76ee\u7b26\u53f7\u5217\u8868","ulClose":"\u5173\u95ed\u9879\u76ee\u7b26\u53f7\u5217\u8868\u6807\u7b7e","ol":"\u7f16\u53f7\u5217\u8868","olClose":"\u5173\u95ed\u7f16\u53f7\u5217\u8868\u6807\u7b7e","li":"\u5217\u8868\u9879\u76ee","liClose":"\u5173\u95ed\u5217\u8868\u9879\u76ee\u6807\u7b7e","code":"\u4ee3\u7801","codeClose":"\u5173\u95ed\u4ee3\u7801\u6807\u7b7e","more":"\u63d2\u5165\u201cMore\u201d\u6807\u7b7e"};var wpLinkL10n = {"title":"\u63d2\u5165\u6216\u7f16\u8f91\u94fe\u63a5","update":"\u66f4\u65b0","save":"\u6dfb\u52a0\u94fe\u63a5","noTitle":"(\u65e0\u6807\u9898)","noMatchesFound":"\u672a\u627e\u5230\u7ed3\u679c\u3002"};/* ]]> */
+</script>
+<script type='text/javascript' src='http://dev.cloudxinhua.com:8022/wordpress/wp-admin/load-scripts.php?c=1&amp;load%5B%5D=hoverIntent,common,admin-bar,heartbeat,autosave,suggest,wp-ajax-response,jquery-color,wp-lists,jquery-ui-core,jquery-ui-widget,j&amp;load%5B%5D=query-ui-mouse,jquery-ui-sortable,postbox,tags-box,underscore,word-count,wp-a11y,post,editor-expand,thickbox,shortcode,backbone,&amp;load%5B%5D=wp-util,wp-backbone,media-models,wp-plupload,mediaelement,wp-mediaelement,media-views,media-editor,media-audiovideo,mce-view,img&amp;load%5B%5D=areaselect,image-edit,svg-painter,wp-auth-check,editor,quicktags,wplink,media-upload&amp;ver=4.4'></script>
+
+
+
+
+xhr状态：{"success":true,"data":{"id":352,"title":"5ba625f6-f1b0-4c14-8ba5-a4cc67b63865","filename":"5ba625f6-f1b0-4c14-8ba5-a4cc67b63865.png","url":"http://dev.cloudxinhua.com:8022/wordpress/wp-content/uploads/2016/01/5ba625f6-f1b0-4c14-8ba5-a4cc67b63865.png","link":"http://dev.cloudxinhua.com:8022/wordpress/?attachment_id=352","alt":"","author":"1","description":"","caption":"","name":"5ba625f6-f1b0-4c14-8ba5-a4cc67b63865","status":"inherit","uploadedTo":109,"date":1452686353000,"modified":1452686353000,"menuOrder":0,"mime":"image/png","type":"image","subtype":"png","icon":"http://dev.cloudxinhua.com:8022/wordpress/wp-includes/images/media/default.png","dateFormatted":"2016年1月13日","nonces":{"update":"35ac5f4b41","delete":"f88d3e43ec","edit":"9a005ef315"},"editLink":"http://dev.cloudxinhua.com:8022/wordpress/wp-admin/post.php?post=352&action=edit","meta":false,"authorName":"xinhua","uploadedToLink":"http://dev.cloudxinhua.com:8022/wordpress/wp-admin/post.php?post=109&action=edit","uploadedToTitle":"数据库 使用DML语句更改数据","filesizeInBytes":18602,"filesizeHumanReadable":"18 kB","sizes":{"thumbnail":{"height":150,"width":150,"url":"http://dev.cloudxinhua.com:8022/wordpress/wp-content/uploads/2016/01/5ba625f6-f1b0-4c14-8ba5-a4cc67b63865-150x150.png","orientation":"landscape"},"medium":{"height":300,"width":242,"url":"http://dev.cloudxinhua.com:8022/wordpress/wp-content/uploads/2016/01/5ba625f6-f1b0-4c14-8ba5-a4cc67b63865-242x300.png","orientation":"portrait"},"full":{"url":"http://dev.cloudxinhua.com:8022/wordpress/wp-content/uploads/2016/01/5ba625f6-f1b0-4c14-8ba5-a4cc67b63865.png","height":392,"width":316,"orientation":"portrait"}},"height":392,"width":316,"orientation":"portrait","compat":{"item":"","meta":""}}}

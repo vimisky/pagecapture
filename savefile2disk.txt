@@ -1,0 +1,14 @@
+I'm working on a Chrome extension to be used as an internal tool. Its required behavior is:
+
+As a page action, enable an address bar icon when looking at certain intranet pages.
+when the user clicks the icon, identify all files of a certain media type (say, .jpg) on the page, and
+silently save them all to a directory on the user's local drive.
+This question has been asked before, but the answer then was "use NPAPI", and NPAPI is now derelict.
+
+So, what is the currently available way to achieve this? The ones I've looked at are:
+
+The chrome.FileSystem API --- but this does not save files in any user-accessible location. Instead the stored files are hidden behind obfuscated names in an undocumented directory. User requires that the files be stored under their original names in an accessible directory.
+The HTML5 download attribute, by creating a data: URL and programmatically clicking it. This pops up a "save as..." dialog for each file, which is unacceptable when there are a hundred assets on a single page. User requires that the files be downloaded without further interaction beyond the single icon click.
+The Chrome Download API, but that is only available in the beta and dev channels. User requires this extension work with mainstream Chrome.
+Use the Native Messaging API by creating a small .exe that simply saves a file to disk, and then pass the .jpg as a blob to it. This seems very cumbersome and I am not even sure how to reliably pass large blobs to EXEs like that.
+Is there another approach I can try?

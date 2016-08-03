@@ -1,0 +1,10 @@
+div.btn-toolbar-vertical .btn-group-vertical{
+	margin-top:5px;
+}
+
+div#snapshot_img_info > div.input-group  > label {
+	min-width: 80px;
+}
+div#snapshot_img_info > div.input-group  > span {
+	min-width: 60px;
+}

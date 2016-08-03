@@ -1,0 +1,414 @@
+{
+	"extName":{
+		"message":"Assistant of Repost ( for WordPress )",
+		"description":" chrome extension name"
+	},
+	"extDesc":{
+		"message":"Assistant to Repost internet articles to sites that use WordPress - open source cms",
+		"description":" chrome extension description"		
+	},
+	"extAuthor":{
+		"message":"Vimisky Studio",
+		"description":" chrome extension author"			
+	},
+	"extShareBtnTitle":{
+		"message":"Repost...",
+		"description":"Repost button title"			
+	},
+	"extCheckImagesBtnTitle":{
+		"message":"Check images upload status",
+		"description":" the button title for checking images upload status "			
+	},
+	"extSetDomRuleBtnTitle":{
+		"message":"Select&Set Dom Crawl Rule",
+		"description":" Select&Set Dom Crawl Rule"			
+	},
+	"extEnableSetDomRuleBtnTitle":{
+		"message":"Enable/Disable Selector",
+		"description":" Select&Set Dom Crawl Rule - Enable/Disable"			
+	},
+	"extSetElementRuleBtnTitle":{
+		"message":"Set",
+		"description":" Select&Set Dom Crawl Rule - Set"			
+	},
+	"extCopyDomPathBtnTitle":{
+		"message":"Copy DOM Path",
+		"description":" Select&Set Dom Crawl Rule - Copy DOM Path"			
+	},
+	"extCopyElementBtnTitle":{
+		"message":"Copy DOM Element",
+		"description":" Select&Set Dom Crawl Rule - Copy DOM Element"			
+	},
+	"extCopyTextBtnTitle":{
+		"message":"Copy Plain Text",
+		"description":" Select&Set Dom Crawl Rule - Copy Plain Text"			
+	},
+	"extDownloadAllImagesBtnTitle":{
+		"message":"Download All Images",
+		"description":" Download All Images"			
+	},
+	"extDownloadAllVideosBtnTitle":{
+		"message":"Download All Video",
+		"description":" Download All Video"			
+	},
+	"extImageProcessBtnTitle":{
+		"message":"Crop Image",
+		"description":" Crop Image"			
+	},
+	"extScreenSnapshotBtnTitle":{
+		"message":"Screen Snapshot",
+		"description":" Screen Snapshot"			
+	},
+	"extSelectedContentSnapshotBtnTitle":{
+		"message":"Transfer to image",
+		"description":" Transfer to image"			
+	},
+	"extPageContentSnapshotBtnTitle":{
+		"message":"Web Page Content Snapshot",
+		"description":" Web Page Content Snapshot"			
+	},
+	"extViewThisCrawlerRuleBtnTitle":{
+		"message":"View Crawl Rule of this site",
+		"description":" View Crawl Rule of this site"			
+	},
+	"extViewThisCrawlerRulePanelTitle":{
+		"message":"View Crawl Rule of this site",
+		"description":" View Crawl Rule of this site"			
+	},
+	"extViewThisCapturePanelTitle":{
+		"message":"Snapshot Detail",
+		"description":" Snapshot Detail"			
+	},
+	"noticeCrawlRuleNotFound":{
+		"message":"Please add crawl rule in this chrome extension",
+		"description":" notice users: crawl rule not found"			
+	},
+	"noticeTargetRuleNotFound":{
+		"message":"Please add target rule in this chrome extension",
+		"description":" notice users: target rule not found"			
+	},
+	"noticeSourcePageNotLoaded":{
+		"message":"Page is not loaded completely, please try it soon",
+		"description":" notice users: Page is not loaded completely, please try it soon"			
+	},
+	"noticeImageURLCrossDomainNotPermit":{
+		"message":"Page is not permit to access for cross-domain reason",
+		"description":" notice users: Page is not permit to access for cross-domain reason"			
+	},
+	"noticeFileNotSelected":{
+		"message":"Please select a configure file first",
+		"description":" notice users：Please select a configure file first"			
+	},
+	"noticeCrawlRuleAddedSuccess":{
+		"message":"crawl rule is added success",
+		"description":" notice users: rule is added success"			
+	},
+	"noticeCrawlRuleAddedFailure":{
+		"message":"crawl rule is added failure",
+		"description":"  notice users: rule is added failure"			
+	},
+	"noticeCrawlRuleAddedFailureAsPermission":{
+		"message":"crawl rule is not added for permission reason",
+		"description":" notice users: rule is not added for permission reason"			
+	},
+	"noticeCrawlRuleUpdatedSuccess":{
+		"message":"crawl rule is updated success",
+		"description":" notice users: crawl rule is updated success"			
+	},
+	"noticeCrawlRuleUpdatedFailureDone":{
+		"message":"crawl rule is updated failure",
+		"description":" notice users: crawl rule is updated failure"			
+	},
+	"noticeCrawlRuleUpdatedFailure":{
+		"message":"crawl rule is updated failure, and we will change to add it",
+		"description":" notice users: crawl rule is updated failure, and we will change to add it"			
+	},
+	"noticeCrawlRuleClearSuccess":{
+		"message":"crawl rules are clear success",
+		"description":"notice users: crawl rules are clear success"			
+	},
+	"noticeCrawlRuleClearFailure":{
+		"message":"crawl rules are clear failure",
+		"description":" notice users: crawl rules are clear success"			
+	},
+	"noticeCrawlRuleUpdatedFailureAsPermission":{
+		"message":"crawl rule is not updated for permission reason",
+		"description":" notice users: crawl rule is not updateed for permission reason"			
+	},
+	"noticeRuleFormatError":{
+		"message":"Please write rules' options as it desired",
+		"description":" notice users: Please write rules' options as it desired"			
+	},
+	"noticeCrawlRuleNumberOut":{
+		"message":"crawl rules' number is beyond 5",
+		"description":" notice users: crawl rules' number is beyond 5"			
+	},
+	"noticeTargetRuleUpdatedSuccess":{
+		"message":"target rule is updated success",
+		"description":" notice users: target rule is updated success"			
+	},
+	"noticeTargetRuleUpdatedFailure":{
+		"message":"target rule is updated failure",
+		"description":" notice users: target rule is updated failure"			
+	},
+	"noticeTargetRuleAddedFailureAsPermission":{
+		"message":"target rule is not added for permission reason",
+		"description":" notice users: target rule is not added for permission reason"			
+	},
+	"noticeNotValidImage":{
+		"message":"Not Valid Image",
+		"description":"Not Valid Image"
+	},
+	"btnCrawlerBtn":{
+		"message":"Crawl Rules",
+		"description":" Crawl Rules Button Title"			
+	},
+	"btnTargetBtn":{
+		"message":"Target Rule",
+		"description":" Target Rule Button Title"			
+	},
+	"btnPhotoProcessBtn":{
+		"message":"Photo Process",
+		"description":" Process Photo"			
+	},
+	"btnMachineBtn":{
+		"message":"Welcome",
+		"description":" Welcome Button Title"			
+	},
+	"btnHelpBtn":{
+		"message":"Help",
+		"description":" Help Button Title"			
+	},
+	"btnAboutBtn":{
+		"message":"About",
+		"description":" About Button Title"			
+	},
+	"infoCPUInfo":{
+		"message":"CPU Information",
+		"description":" CPU Information Title"			
+	},
+	"infoCPUKey":{
+		"message":"CPU Entity",
+		"description":" CPU Entity Table head - Key"			
+	},
+	"infoCPUValue":{
+		"message":"Value",
+		"description":" CPU Entity Table head - Value"			
+	},
+	"infoMemInfo":{
+		"message":"Memory Information",
+		"description":" Memory Information Title"			
+	},
+	"infoMemKey":{
+		"message":"Memory Entity",
+		"description":" Memory Entity Table head - Key"			
+	},
+	"infoMemValue":{
+		"message":"Value",
+		"description":" Memory Entity Table head - Value"			
+	},
+	"btnImportBtn":{
+		"message":"Import",
+		"description":" import Button Title"			
+	},
+	"btnExportBtn":{
+		"message":"Export",
+		"description":" export Button Title"			
+	},
+	"btnClearBtn":{
+		"message":"Clear",
+		"description":" clear Button Title"			
+	},
+	"btnNewBtn":{
+		"message":"New",
+		"description":" new Button Title"			
+	},
+	"btnRefreshBtn":{
+		"message":"Refresh",
+		"description":" refresh Button Title"			
+	},
+	"infoRuleNumbericID":{
+		"message":"ID",
+		"description":" ID Table head - ID"			
+	},
+	"infoRuleName":{
+		"message":"Name",
+		"description":" Name Table head - Name"			
+	},
+	"infoRuleModifyTime":{
+		"message":"Modified Time",
+		"description":" Modified Time Table head - Modified Time "			
+	},
+	"infoRuleDomainName":{
+		"message":"Domain Name",
+		"description":" Domain Name Table head - Domain Name"			
+	},
+	"infoRuleOpt":{
+		"message":"Operation",
+		"description":" Operation Table head - Operation"			
+	},
+	"infoDomPath":{
+		"message":"DOM Path",
+		"description":" DOM Path Setting"			
+	},
+	"labelDomainName":{
+		"message":"Domain Name",
+		"description":" Domain Name "			
+	},
+	"helpBlockRequire":{
+		"message":"Required",
+		"description":" help block Required "			
+	},
+	"helpBlockStarRegexp":{
+		"message":"you can use star * to replace some path in URL, for max adaptive",
+		"description":" you can use star * to replace some path in URL, for max adaptive"			
+	},
+	"labelSiteName":{
+		"message":"Site Name",
+		"description":" Lable Site Name"			
+	},
+	"labelArticleUrl":{
+		"message":"Article URL",
+		"description":" Article URL "			
+	},
+	"labelTitle":{
+		"message":"Title",
+		"description":" Label Title "			
+	},
+	"labelAuthor":{
+		"message":"Author",
+		"description":" Label Author"			
+	},
+	"labelDateTime":{
+		"message":"Time",
+		"description":" Label Time"			
+	},
+	"labelContent":{
+		"message":"Content",
+		"description":" Label Content "			
+	},
+	"btnSaveBtn":{
+		"message":"Save",
+		"description":" Save Button Title "			
+	},
+	"btnCancelBtn":{
+		"message":"Cancel",
+		"description":" Cancel Button Title "			
+	},
+	"btnAutoGenerateBtn":{
+		"message":"AutoGenerate",
+		"description":" AutoGenerate Button Title "			
+	},
+	"infoTargetDomPath":{
+		"message":"Target Rule",
+		"description":" Target Rule DOM Path"			
+	},
+	"infoAutoGenerate":{
+		"message":"It Can Generate DOM path automatical",
+		"description":" It Can Generate DOM path automatical "			
+	},
+	"infoSiteSupport":{
+		"message":"Now we can support wordpress only",
+		"description":" Now we can support wordpress only "			
+	},
+	"labelSiteType":{
+		"message":"Site Type",
+		"description":" Label Site Type"			
+	},
+	"labelPostArticleUrl":{
+		"message":"Post Article URL",
+		"description":" Post Article URL "			
+	},
+	"labelTargetTitle":{
+		"message":"Title",
+		"description":" Target Title "			
+	},
+	"labelLabelTitle":{
+		"message":"Title Label",
+		"description":" Label Title"			
+	},
+	"labelContent":{
+		"message":"Content Label",
+		"description":" Label Content "			
+	},
+	"helpBlockRequiredAutoGenerate":{
+		"message":"Required，Auto Generated，Modified Support",
+		"description":" Required，Auto Generated，Modified Support "			
+	},
+	"infoImportCrawlRule":{
+		"message":"Import Crawl Rules",
+		"description":" Import Crawl Rules "			
+	},
+	"infoImportTargetRule":{
+		"message":"Import Target Rules",
+		"description":" Import Target Rules "			
+	},
+	"infoImportTargetRule":{
+		"message":"upload a photo to process",
+		"description":" upload a photo to process "			
+	},
+	"infoDownloadImagesPanelTitle":{
+		"message":"Download All Images",
+		"description":" Download All Images Panel Title "			
+	},
+	"btnDownloadBtn":{
+		"message":"Download",
+		"description":" Download "			
+	},
+	"btnUploadBtn":{
+		"message":"Upload",
+		"description":" Upload "			
+	},
+	"btnApplyBtn":{
+		"message":"Apply",
+		"description":" Apply "			
+	},
+	"btnCloseBtn":{
+		"message":"Close",
+		"description":" Close "			
+	},
+	"btnReplaceBtn":{
+		"message":"Replace",
+		"description":" Replace "			
+	},
+	"infoNextStepApplyBtn":{
+		"message":"Upload success，please click \"Apply\" button to apply the rule",
+		"description":" Notice users to click \"Apply\" button after import rules "			
+	},
+	"infoUploadImagesPanelTitle":{
+		"message":"progress of reposting images",
+		"description":" Upload Images Dialog : progress of reposting images"			
+	},
+	"infoSelectNotAll":{
+		"message":"Select All\/Not Select",
+		"description":" not all\/select all "			
+	},
+	"infoUploadFailure":{
+		"message":"Upload failure",
+		"description":" upload failure "			
+	},
+	"infoUploadProgress":{
+		"message":"Upload progress",
+		"description":" Upload progress "			
+	},
+	"infoUploadComplete":{
+		"message":"complete",
+		"description":" complete "			
+	},
+	"labelNewArticleUrl":{
+		"message":"URL",
+		"description":" New a Article URL "			
+	},
+	"infoCrawlerRuleSetPanelTitle":{
+		"message":"Set Rule",
+		"description":" Crawl Rule Set Panel title "			
+	},
+	"labelDomLabelTitle":{
+		"message":"DOM Path",
+		"description":" Crawl Rule Set Panel - DOM Path "			
+	},
+	"infoElementCurrentPath":{
+		"message":"Element current dom path is ",
+		"description":" Element current dom path is  "			
+	}
+}
